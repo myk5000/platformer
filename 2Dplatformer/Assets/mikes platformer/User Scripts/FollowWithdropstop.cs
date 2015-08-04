@@ -16,7 +16,7 @@ public class FollowWithdropstop : MonoBehaviour {
 
 
 		}
-		if(player.transform.rigidbody2D.velocity.y < -45)
+		if(player.transform.GetComponent<Rigidbody2D>().velocity.y < -45)
 		{
 			isNotFalling = false;
 		}

@@ -126,10 +126,10 @@ public class SideGenerator : MonoBehaviour
 	
 		}
 
-		void spawnObject ()
+		void spawnObject()
 		{
 				int index = Random.Range (0, spawnableObjectArray.Length);
-				Debug.Log ("^^^^#$%>>SPAWN! for index: " + index);
+				Debug.Log ("^^%>>SPAWN! for index: " + index);
 				Instantiate (spawnableObjectArray [index], transform.position, Quaternion.identity);
 				//Instantiate(spawnableObjectArray[0], transform.position, Quaternion.identity);
 				//should be about to spawn new object
